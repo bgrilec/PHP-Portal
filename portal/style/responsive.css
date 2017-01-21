@@ -1,0 +1,635 @@
+/*1301px-1650px*/
+@media only screen and (max-width: 1550px) {
+    
+    #main-page-content,
+    #main-header nav,
+    .footer-inner,
+    .admin-top-menu ul {
+        width: 1150px;
+    }
+    
+    .title {
+        font-size: 1.35em;
+        top: 55%;
+    }
+
+    .title-big {
+        font-size: 1.75em;
+        top: 72%;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    .ar-content h2 {
+        font-size: 1.12em;
+    }
+    
+    
+    /*COMMENT FORM*/
+    .comment-form-row {
+        display: inline-block;
+        width: 43%;
+        height: 40px;
+        margin-right: 5%;
+    }    
+    
+    .btn-comment-form { margin-top: 30px; } 
+    
+}
+
+
+@media only screen and (max-width: 1350px) {
+    
+    #main-page-content,
+    #main-header nav,
+    .footer-inner,
+    .admin-top-menu ul{
+        width: 1150px;
+    }
+    
+    /*Jobs aside*/
+    .job {
+        width: 95%;
+        margin: 0 auto;
+        height: 160px;
+        margin-bottom: 10px;
+    }
+
+    .job-logo {
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .job-content {
+        float: none;
+        width: 98%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    
+    /*Modal*/
+    .modal-content { width: 40%; }
+        
+    
+    /*ADMIN PAGE*/
+    #main-page-content-admin { width: 80%; }
+
+    
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    #main-page-content,
+    #main-header nav,
+    .footer-inner {
+        width: 98%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1050px) {
+    
+    .news-recent {
+        width: 100%;
+        border-right: none;
+    }
+
+    .article-recent {
+        overflow: auto;
+        margin-top: 15px;
+    }
+    
+    .article-recent:last-child {
+        margin-bottom: 15px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+    .article-recent h2 {
+        margin-bottom: 15px;
+        font-size: 1.25em;
+    }
+
+    .ar-img {
+        width: 30%;
+        height: 200px;
+    }
+
+    .ar-content {
+        width: 67%;
+        height: 170px;
+    }
+
+    .ar-content { font-size: 1.24em; }
+    
+    .article-recent .nsc-nr {
+        display: none;
+    }
+    
+    
+    /*article popular*/
+    .news-popular { width: 100%; }
+    
+    .article-popular { height: 350px; }
+    
+    .articles1 .news-recent {
+        width: 100%;
+    }
+    
+    
+    /*Jobs aside*/
+    .jobs { 
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .job {
+        width: 93%;
+        margin: 0 auto;
+        height: 100px;
+        padding: 10px;
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 15px;
+    }
+
+    .job-logo {
+        width: 90px;
+        height: auto;
+        float: left;
+    }
+
+    .job-content {
+        float: left;
+        width: 69%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    
+    /*COMMENT FORM*/
+    .comment-form-row {
+        display: inline-block;
+        width: 35%;
+        height: 40px;
+        margin-right: 5%;
+    }
+
+    .btn-comment-form {
+        display: inline-block;
+        height: 40px;
+    }
+    
+    
+    /*Modal*/
+    .modal-content { width: 50%; }
+    
+    
+    /************************
+            FIRM PAGE   
+    *************************/
+    #firm-data {
+       width: 100%;
+        float: left;
+    }
+
+    .firm-data-logo-details {
+        width: 70%;
+        overflow: auto;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .firm-logo {
+        width: 30%;
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    .firm-data-change {
+        clear: none;
+        float: left;
+        width: 30%;
+        margin-top: 20px;
+    }
+
+    #firm-jobs {
+        width: 95%;
+        overflow: auto;
+        padding: 10px;
+        float: left;
+        margin-left: 2.5%;
+    }
+    
+    
+    /*ADMIN PAGE*/
+    #main-page-content-admin { width: 95%; }
+
+}
+
+
+@media only screen and (max-width: 970px) {
+    
+    #main-header nav ul { display: none; }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 875px) {
+
+    .comment-form-row {
+        display: inline-block;
+        width: 44%;
+        height: 40px;
+        margin-right: 5%;
+    }    
+
+    .btn-comment-form { margin-top: 30px; }  
+    
+    /*FIRM DATA*/
+    #firm-data {
+       width: 100%;
+        float: left;
+    }
+
+    .firm-data-logo-details {
+        width: 100%;
+        overflow: auto;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .firm-logo {
+        width: auto;
+        height: 180px;
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    .firm-data-change {
+        clear: none;
+        float: left;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #firm-jobs {
+        width: 98%;
+        margin-left: 1%;
+    }
+    
+    .btn-firm-data {
+        width: 31%;
+        display: inline-block;
+        margin-right: 3%;
+    }
+    
+    .btn-firm-data:last-child {
+        margin-right: 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 810px) {
+    
+    #main-header nav ul { display: none; }
+    
+    /*FIRM DATA*/
+    .btn-firm-data {
+        width: 100%;
+        display: block;
+        margin-right: 3%;
+    }
+    
+    .btn-firm-data:last-child {
+        margin-right: 0;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 800px) {
+    /*News slider*/
+    #news-slider {
+        overflow-y: auto;
+        width: 90%;
+        height: 920px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+
+    #ns-big,
+    .ns-small {
+        width: 100%;
+        height: 290px;
+        margin-bottom: 10px;
+    }
+
+    .title,
+    .title-big {
+        width: 94%;
+        position: absolute;
+        top: 58%;
+        left: 3%;
+        font-size: 1.6em;
+    }
+
+    #news-slider footer,
+    #news-slider .footer-small {
+        top: 263px;
+        font-size: 90%;
+    }
+    
+    
+    /*Article recent*/
+    .ar-img { height: 160px; }
+    
+    .article-recent h2 { margin-bottom: 5px; }
+    
+    .ar-content { height: 130px; }
+    
+    
+    /*Article category small*/
+    .ar-cat-small-img { height: 175px; }
+
+    .article-cat-small-inner { height: 175px; }
+    
+    
+    /*Job offers*/
+    .job-logo-box {
+        width: auto;
+        height: 70px;
+    }
+    
+    .job-box { height: 200px; }
+    
+    
+    /*Modal*/
+    .modal-content { width: 65%; }
+    
+    .modal-header h2 { margin-left: 36%; }
+    
+    
+    /*firm data*/
+    .firm-logo {
+        width: 20%;
+        height: auto;
+        float: left;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .article-recent {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .ar-img {
+        width: 100%;
+        height: 270px;
+    }
+    
+    .article-recent h2 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 1.25em;
+    }
+    
+    .ar-content { width: 100%; }    
+    
+    /*article popular*/
+    .news-popular { width: 100%; }
+    
+    .article-popular { 
+        height: 350px; 
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    
+    /*Article category small*/
+    .ar-cat-small-img {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        height: 200px;
+        object-fit: cover;
+        float: none;
+    }
+
+    .article-cat-small-inner {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+        padding: 5px;
+        overflow-y: hidden;
+    }
+
+    .article-cat-small h2 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .article-cat-small footer {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+    
+    
+    /*Article category big*/
+    .ar-cat-big-img {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+    }
+    
+    
+     /*Job offers*/
+    .job-box {
+        width: 46%;
+        margin: 2%;
+    }
+
+    .job-logo-box { height: 70px; }
+    
+    
+    /*Article*/
+    .article-title { font-size: 1.6em; }
+    
+    /*COMMENT FORM*/
+    .comment-form-row {
+        width: 100%;
+        margin-bottom: 40px;
+    }    
+
+    .btn-comment-form { 
+        margin-top: 10px;
+        width: 100%;
+    } 
+    
+    
+    /*Modal*/
+    .modal-content { width: 75%; }
+    
+    
+    /*Admin top menu*/
+    .admin-top-menu ul {
+        list-style: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .admin-top-menu ul li {
+        display: inline-block;
+        padding: 5px 0;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 588px) {
+    
+    #main-page-content-admin h2 { margin-top: 180px; }
+        
+}
+
+
+
+@media only screen and (max-width: 520px) {
+    
+    /*News slider*/
+    #news-slider { width: 100%; }
+
+    #ns-big,
+    .ns-small { width: 100%; }
+
+    .title,
+    .title-big {
+        top: 60%;
+        font-size: 1.35em;
+    }
+    
+    .article-recent {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .ar-img {
+        width: 100%;
+        height: 180px;
+    }
+    
+    .article-recent h2 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 1.05em;
+    }
+    
+    .ar-content { 
+        width: 100%;
+        height: 195px;
+    }    
+    
+    /*article popular*/
+    .news-popular { 
+        width: 100%;
+        overflow-y: hidden;
+        margin-bottom: 50px;
+    }
+    
+    .article-popular { 
+        min-height: 250px; 
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .footer-inner nav {
+        overflow: auto;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #footer-social {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    /*Jobs aside at the bottom of page*/
+    /*Jobs aside*/
+    .job {
+        width: 95%;
+        margin: 0 auto;
+        height: 170px;
+    }
+
+    .job-logo {
+        height: 60px;
+        width: auto;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .job-content {
+        float: none;
+        width: 98%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+     /*Job offers*/
+    .job-box { width: 98%; }
+    
+    
+    /*Modal*/
+    .modal-content { width: 95%; }
+    
+    .modal-header h2 { margin-left: 31%; }
+    
+    
+}
+
+
+@media only screen and (max-width: 300px) {
+    
+    #main-page-content-admin h2 { margin-top: 280px; }
+    
+    .admin-top-menu ul li { width: 100%; }
+
+    .admin-top-menu ul li a { width: 100%; }
+        
+}

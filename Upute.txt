@@ -1,0 +1,7 @@
+Upute:
+
+1. U phpmyadmin potrebno je kreirati bazu podataka pod nazivom "portal", collation = "utf8_general_ci"
+2. Novo kreiranu bazu otvoriti i u prostor gdje se unosi SQL upit potrebno je zaljepiti sav sadržaj
+   iz datoteke "portal.sql".
+3. Unutar XAMPPA -> htdocs potrebno je zaljepiti cijelu mapu "portal".
+4. Pokrenite Apache i MySQL, zatim u pretraživaè upišite "localhost/portal".
